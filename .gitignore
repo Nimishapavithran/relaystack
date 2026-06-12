@@ -1,36 +1,43 @@
 # Python
-__pycache__/
+
+**pycache**/
 *.py[cod]
 *.sqlite3
 
-# Virtual env
+# Virtual environments
+
 venv/
 .env
 .env.*
 
 # Django
+
 media/
 staticfiles/
 
 # IDE
+
 .vscode/
 .idea/
 
 # macOS
+
 .DS_Store
 
 # Logs
+
 *.log
 
 # Celery
+
 celerybeat-schedule
 
-# Pytest
-.pytest_cache/
+# Testing
 
-# Coverage
-htmlcov/
+.pytest_cache/
 .coverage
+htmlcov/
 
 # Docker
+
 *.pid

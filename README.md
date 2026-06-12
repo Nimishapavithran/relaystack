@@ -3,11 +3,12 @@
 RelayStack is an AI-powered workflow automation platform designed to orchestrate integrations, asynchronous workflows, and intelligent task execution across external services.
 
 The platform combines:
-- workflow automation
-- AI agents
-- webhook infrastructure
-- async task execution
-- observability tooling
+
+* workflow automation
+* AI agents
+* webhook infrastructure
+* async task execution
+* observability tooling
 
 into a scalable backend architecture.
 
@@ -16,100 +17,90 @@ into a scalable backend architecture.
 # Core Features
 
 ## Workflow Automation
-- Event-driven workflows
-- Trigger/action pipelines
-- Multi-step execution chains
+
+* Event-driven workflows
+* Trigger/action pipelines
+* Multi-step execution chains
 
 ## AI Agents
-- AI summarization
-- classification
-- extraction
-- automated responses
+
+* AI summarization
+* classification
+* extraction
+* automated responses
 
 ## Integrations
-- Slack
-- Gmail
-- HubSpot
-- Notion
-- extensible provider architecture
+
+* Slack
+* Gmail
+* HubSpot
+* Notion
+* extensible provider architecture
 
 ## Async Processing
-- Celery workers
-- Redis queues
-- retry handling
-- distributed execution
+
+* Celery workers
+* Redis queues
+* retry handling
+* distributed execution
 
 ## Observability
-- execution logs
-- task monitoring
-- workflow analytics
-- error tracking
+
+* execution logs
+* task monitoring
+* workflow analytics
+* error tracking
 
 ---
 
 # Planned Architecture
 
-```text
 Client/UI
-   ↓
+↓
 Django API Layer
-   ↓
+↓
 Workflow Engine
-   ↓
+↓
 Redis Queue
-   ↓
+↓
 Celery Workers
-   ↓
+↓
 External Services + AI APIs
-```
 
 ---
 
 # Tech Stack
 
 ## Backend
-- Django
-- Django REST Framework
+
+* Django
+* Django REST Framework
 
 ## Database
-- PostgreSQL
+
+* PostgreSQL
 
 ## Async Infrastructure
-- Celery
-- Redis
+
+* Celery
+* Redis
 
 ## AI
-- OpenAI API
+
+* OpenAI API
 
 ## Deployment
-- Docker
-- Nginx
-- Gunicorn
 
----
-
-# Project Goals
-
-RelayStack is intended as a backend-focused engineering project exploring:
-
-- workflow orchestration
-- event-driven systems
-- async processing
-- AI integrations
-- scalable backend architecture
-- observability systems
+* Docker
+* Nginx
+* Gunicorn
 
 ---
 
 # Development Status
 
 Current Phase:
-- Repository initialization
-- Backend architecture planning
-- Django infrastructure setup
 
----
-
-# License
-
-MIT License
+* Repository initialization
+* Architecture planning
+* Backend foundation setup
