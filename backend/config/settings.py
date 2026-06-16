@@ -159,3 +159,11 @@ CELERY_TASK_SERIALIZER = "json"
 CELERY_RESULT_SERIALIZER = "json"
 
 CELERY_TIMEZONE = "UTC"
+
+AUTH_USER_MODEL = "accounts.User"
+
+REST_FRAMEWORK = {
+"DEFAULT_AUTHENTICATION_CLASSES": (
+"rest_framework_simplejwt.authentication.JWTAuthentication",
+),
+}
